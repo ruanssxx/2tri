@@ -52,7 +52,7 @@ const perguntas = [
         mostraAlternativas();
 
     }
-     function mostraPergunta(){
+     function mostraAlternativas(){
         for(const Alternativa of perguntaAtual.alternativas){
             const botaoalternativas = document.createElement("button");
             botaoalternativas.textContent = Alternativa;
